@@ -1,0 +1,12 @@
+<div class="posts">
+    {{range .Posts}}
+    <div class="post-container">
+        <h2>
+            <a href="/p/{{.Slug}}">{{.Title}}</a>
+        </h2>
+        <div class="post-time">
+            {{.Created}}
+        </div>
+    </div>
+    {{end}}
+</div>

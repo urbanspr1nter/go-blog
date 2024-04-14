@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: mediumvioletred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: palevioletred;
+    font-weight: 700;
+}
+
+a:visited {
+    color: mediumvioletred;
+}
+
+body > header {
+    border-bottom: 1px solid #aaaaaa;
+    height: 20vh;
+    background-color: rgba(255, 255, 204, 0.5);
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/header_background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+body > header h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+body > header div.sub-header {
+    display: block;
+}
+
+body > footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #aaaaaa;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 204, 0.5);
+}
+
+body > main {
+    display: flex;
+}
+
+body > main nav {
+    justify-content: center;
+    height: calc(100vh - 35vh);
+    padding: 1rem;
+    flex: 2;
+    margin-right: 1rem;
+}
+
+body > main nav ul {
+    margin: 1rem;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+body > main nav ul li {
+    margin: 4px;
+}
+
+body > main div.main-content {
+    padding: 1rem;
+    flex: 10;
+}
+
+div.post-container {
+    padding: 0 1rem 1rem 1rem;;
+}
+
+div.post-container h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+div.post-container h1 {
+    margin: 0 0 0.5rem 0;
+}
+
+div.post-container .post-time {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+div.post-container .post-content {
+    margin: 1rem 0 1rem 0;
+}
+
+div.icon-container {
+    display: flex;
+    padding-top: 0.5rem;
+    justify-content: center;
+}
+
+div.icon-container .icon {
+    margin-right: 0.25rem;
+    width: 24px;
+}
+
+div.about-container {
+    display: flex;
+}
+
+div.about-container .about-photo img {
+    width: 300px;
+}
+
+div.about-container .about-photo {
+    margin-right: 1rem;
+}

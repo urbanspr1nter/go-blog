@@ -1,0 +1,8 @@
+{
+  "title": "Terry's Blog",
+  "author": "Terry Test",
+  "github_url": "https://github.com/urbanspr1nter",
+  "linkedin_url": "https://linkedin.com/in/rogerngo90",
+  "database_url_env": "DATABASE_URL",
+  "http_port": "3333"
+}
